@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(120deg, #f5a9c0, #f1c6d8); /* Soft pinkish gradient */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+    flex-direction: column;
+    text-align: center;
+    background-image: url(front.jpg); 
+  
+   
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center; 
+  height: 100vh;
+  width: 100%; 
+  margin: 0; 
+  overflow: hidden; 
+
+    
+  }
+  
+  .main-title {
+    font-size: 4rem; /* Large font size for the main title */
+    color: #64122f; /* Pink color for the title */
+    margin-bottom: 50px; /* Space below the main title */
+    position: absolute;
+    top: 20px; /* Positioning it at the top */
+    text-decoration: underline;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    font-size: 2.5rem;
+    color: #d22f66; /* Pink color for subheading */
+    margin-bottom: 15px;
+  }
+  h3{
+    font-size: 2rem;
+    color: #b3657f; /* Pink color for subheading */
+    margin-bottom: 15px;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .btn {
+    font-size: 1.2rem;
+    padding: 15px 30px;
+    color: white;
+    background-color: #d26b8d; /* Pink button */
+    text-decoration: none;
+    border-radius: 30px;
+    display: inline-block;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .btn:hover {
+    background-color: #b85a77; /* Darker pink on hover */
+    transform: scale(1.1); /* Slight zoom effect */
+  }
+  

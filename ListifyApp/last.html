@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analyze Yourself - To-Do List</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8d7e4; 
+            margin: 0;
+            padding: 0;
+            background-image: url(last.jpg); 
+  
+   
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center; 
+  height: 100vh;
+  width: 100%; 
+  margin: 0; 
+  overflow: hidden; 
+
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 50px;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        h1 {
+            text-align: center;
+            color: #d6336c; 
+        }
+        .checkbox-container {
+            margin-top: 20px;
+        }
+        label {
+            font-size: 18px;
+            margin-right: 10px;
+        }
+        .checkbox-container input {
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Analyze Yourself</h1>
+        <div class="checkbox-container">
+            <input type="checkbox" id="reached100">
+            <label for="reached100">Have You reached 100% of your potential?</label>
+        </div>
+
+        <div class="checkbox-container">
+            <input type="checkbox" id="doneHardwork">
+            <label for="doneHardwork">Have you done all the hard work to put towards your work?</label>
+        </div>
+
+        <div class="checkbox-container">
+            <input type="checkbox" id="continueTask">
+            <label for="continueTask">Will you continue the task completion further as well?</label>
+        </div>
+
+        <div class="checkbox-container">
+            <input type="checkbox" id="improvedToday">
+            <label for="improvedToday">Improved Yourself a bit today?</label>
+        </div>
+
+        <div class="checkbox-container">
+            <input type="checkbox" id="focusedOnGoals">
+            <label for="focusedOnGoals">Have you focused on your long-term goals today?</label>
+        </div>
+
+        <div class="checkbox-container">
+            <input type="checkbox" id="learnedSomethingNew">
+            <label for="learnedSomethingNew">Have you learned something new to improve yourself today?</label>
+        </div>
+    </div>
+
+</body>
+</html>

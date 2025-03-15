@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO APP</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+     .myButton {
+            position: absolute;
+            top: 20px; 
+            right: 20px; 
+            background-color: #f9c4ee; 
+            border: none;
+            color: rgb(20, 19, 19);
+            padding:20px 100px;
+            justify-content: center;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px; 
+            transition: background-color 0.3s ease; 
+        }
+
+        .myButton:hover {
+            background-color: #eac7e4;
+        }
+</style>
+
+       
+</head>
+<body>
+    
+     <a href="last.html" class="myButton" target="_blank">Analize Yourself</a> 
+    <div class="container">
+        <div class="stats-container">
+            <div class="details">
+                <h1>Hello! Learner</h1>
+                <p>Keep it up!</p>
+                <div id="progressBar">
+                    <div id="progress"></div>
+                </div>
+                
+            </div>
+            <div class="stats-members">
+                <div class="p" id="numbers">0/0</div>
+            </div>
+        </div>
+
+        <form action="">
+            <input type="text" id="taskInput" placeholder="Write Your Task">
+            <button id="newTask" type="submit">+</button>
+        </form>
+
+        <ul id="task-list"></ul>
+       
+    </div>
+
+
+    <script src="./app.js"></script>
+   
+</body>
+</html>
