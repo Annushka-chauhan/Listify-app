@@ -1,2 +1,18 @@
 # Listify-app
-A Listify App is a task management application that helps users organize, track, and prioritize their tasks efficiently. This app have categories of tasks distinguished by work, fitness, personal etc. Further you can add, edit, delete, and mark tasks as done. And can analyze your progress at the end of day and can improve yourself accordingly. It also helps the user to be productive in all ways. Hence very efficient for personal development.
+A simple Listify app using HTML, CSS, and JavaScript for task management.
+
+🚀 Features
+✅ Add new tasks
+✅ Mark tasks as completed
+✅ Remove tasks
+✅ Edit tasks
+✅ Minimalistic and user-friendly UI
+✅ Responsive design
+
+🛠️ Tech Stack
+HTML – Structure
+
+CSS – Styling & responsiveness
+
+JavaScript – Interactivity
+📜 For learning purposes only. Not a production app.
